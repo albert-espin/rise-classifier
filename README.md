@@ -8,9 +8,11 @@ The objective of this work is the and the evaluation of a custom Python implemen
 
 | | |
 |-|-|
-| **Author** | Albert Espín |
+| **Author** | Albert Espín (except datasets, gathered from [UCI's Machine Learning repository](http://archive.ics.uci.edu/ml)) |
 | **Date**  | March 2019  |
+| **Code license**  | MIT |
 | **Report license**  | Creative Commons Attribution, Non-Commercial, Non-Derivative |
+|**Dataset licence** | Licenses specified for each dataset in [UCI's Machine Learning repository](http://archive.ics.uci.edu/ml) |
 
 
 ## Pseudo-code
