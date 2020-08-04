@@ -158,13 +158,6 @@ def split_data_frame(data_frame, test_proportion):
     # perform a stratified split
     x_train, x_test, y_train, y_test = train_test_split(x, y, stratify=y, test_size=test_proportion)
 
-    '''data_frame_train = x_train
-    data_frame_train[class_column_name] = y_train
-    print(data_frame_train.to_string())
-    data_frame_test = x_test
-    data_frame_test[class_column_name] = y_test
-    print(data_frame_test.to_string())'''
-
     return x_train, y_train.squeeze(), x_test, y_test.squeeze()
 
 
